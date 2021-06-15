@@ -15,7 +15,7 @@ Here are the reviewers for the last 100 PRs in Owner/Repo:
 ## Get going
 1. Clone the repo
 2. `npm i`
-3. Rename `config.example.js` to `config.js` and add your personal access token
+3. Rename `config.example.js` to `config.js` and add your personal access token, repo and owner
 4. `npm start`
 
 After a short delay the output should be printed to your console
