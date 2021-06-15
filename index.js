@@ -1,9 +1,5 @@
 const { Octokit } = require("@octokit/core");
-const { token } = require("./config");
-
-
-const owner = 'TrillerCo';
-const repo = 'Triller';
+const { owner, repo, token } = require("./config");
 
 const octokit = new Octokit({ auth: token });
 
